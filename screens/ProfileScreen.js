@@ -91,4 +91,4 @@ const mapStateToProps = state => {
   action: state.action;
 };
 
-export default connect(mapStateToProps)(ProfileScreen);
+export default connect()(ProfileScreen);

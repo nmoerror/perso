@@ -6,6 +6,7 @@ import HomeScreen from '../screens/HomeScreen';
 import SearchScreen from '../screens/SearchScreen';
 import FriendsScreen from '../screens/FriendsScreen';
 import OptionsScreen from '../screens/OptionsScreen';
+import ProfileScreen from '../screens/ProfileScreen';
 
 const HomeStack = createStackNavigator({
   Home: HomeScreen
@@ -29,6 +30,10 @@ const Search = createStackNavigator({
 
 const Friends = createStackNavigator({
   Friends: FriendsScreen
+});
+
+const Profile = createStackNavigator({
+  Profile: ProfileScreen
 });
 
 const Options = createStackNavigator({
